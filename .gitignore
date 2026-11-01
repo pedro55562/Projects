@@ -1,0 +1,12 @@
+# Infra repo: only infrastructure files are tracked.
+# Each 2nd-level folder (e.g. petrobras/petro_rmf_deploy) is an independent git repo.
+/*/*
+!/*/CLAUDE.md
+!/*/.gitkeep
+!/*/.templates/
+!/*/.claude/
+
+# Safety
+.venv/
+__pycache__/
+*.pyc
